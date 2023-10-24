@@ -9,7 +9,5 @@ driver = webdriver.Chrome(executable_path=driver_path)
 # Navigate to Amazon.com
 driver.get("https://www.amazon.com/")
 
-# Perform additional actions or web automation tasks here
-
 # Close the browser
 driver.quit()
